@@ -8,7 +8,7 @@ const MAP_LNG: number | null = null;
 const HAS_COORDS = MAP_LAT !== null && MAP_LNG !== null;
 const PHONE_DISPLAY = "299-4728756";
 const PHONE_DIAL = "+5492994728756";
-const EMAIL = "ariel@estudiomercadoochoa.com.ar";
+const EMAIL = "mercadoochoaabogados@gmail.com";
 const WHATSAPP_URL = `https://wa.me/5492994728756?text=${encodeURIComponent("Hola, quisiera hacer una consulta.")}`;
 const MAPS_LINK = HAS_COORDS
   ? `https://www.google.com/maps/search/?api=1&query=${MAP_LAT},${MAP_LNG}`
