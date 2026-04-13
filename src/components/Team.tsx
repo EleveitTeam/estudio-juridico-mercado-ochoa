@@ -222,6 +222,79 @@ export default function Team() {
           </div>
         </div>
       )
+    },
+    {
+      id: 3,
+      title: "Nuestra Abogada",
+      content: (
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+          {/* Imagen de la abogada */}
+          <div className="order-2 lg:order-1">
+            <div className="relative overflow-hidden rounded-2xl shadow-xl group hover:shadow-2xl transition-shadow duration-500">
+              <img
+                src="/mujer.jpeg"
+                alt="Dra. María de los Ángeles Dominici - Abogada del Estudio Jurídico Mercado Ochoa"
+                className="w-full h-96 lg:h-[28rem] object-cover transition-all duration-700 group-hover:scale-110 group-hover:brightness-110"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500"></div>
+
+              {/* Overlay decorativo */}
+              <div className="absolute top-4 right-4 w-12 h-12 bg-[#D9B26A]/20 backdrop-blur-sm rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-2 group-hover:translate-y-0">
+                <svg className="w-6 h-6 text-[#D9B26A]" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          {/* Información de la abogada */}
+          <div className="order-1 lg:order-2 space-y-6">
+            <div>
+              <h3 className="text-lg lg:text-xl font-bold text-[#D9B26A] font-playfair mb-4">
+                Dra. María de los Ángeles Dominici
+              </h3>
+              <p className="text-sm lg:text-base text-white/90 font-source-sans leading-relaxed mb-4">
+                La Dra. María de los Ángeles Dominici integra el equipo de Estudio Jurídico Mercado Ochoa Abogados, aportando una práctica profesional orientada a la excelencia técnica, el trato cercano y la búsqueda de soluciones concretas para cada cliente.
+              </p>
+              <p className="text-sm lg:text-base text-white/80 font-source-sans leading-relaxed mb-4">
+                Su enfoque combina el análisis jurídico riguroso con una comprensión integral del conflicto, entendiendo que cada caso involucra no solo aspectos legales, sino también decisiones personales de relevancia que requieren acompañamiento y claridad.
+              </p>
+              <p className="text-sm lg:text-base text-white/80 font-source-sans leading-relaxed mb-4">
+                En su labor diaria se destaca por la escucha activa, la comunicación directa y el seguimiento constante de los procesos, asegurando que cada cliente cuente con información clara y oportuna para la toma de decisiones.
+              </p>
+              <p className="text-sm lg:text-base text-white/80 font-source-sans leading-relaxed mb-4">
+                Se encuentra en permanente formación, participando activamente en el Instituto de Derecho Procesal de Neuquén y en el Instituto de Derecho de Familia de Río Negro, lo que le permite mantenerse actualizada frente a los desafíos actuales del ejercicio profesional.
+              </p>
+              <p className="text-sm lg:text-base text-white/80 font-source-sans leading-relaxed mb-4">
+                Cuenta además con formación en mediación, incorporando herramientas que favorecen la resolución de conflictos a través del diálogo y la construcción de acuerdos eficientes.
+              </p>
+              <p className="text-sm lg:text-base text-white/80 font-source-sans leading-relaxed">
+                En línea con la filosofía del Estudio, ha incorporado conocimientos en Inteligencia Artificial aplicada al Derecho, contribuyendo a la optimización de los procesos y a la prestación de un servicio jurídico moderno, ágil y de alta calidad.
+              </p>
+            </div>
+
+            {/* Especialidades de la abogada */}
+            <div className="grid sm:grid-cols-2 gap-4">
+              <div className="flex items-center gap-3">
+                <div className="w-2 h-2 bg-[#D9B26A] rounded-full"></div>
+                <span className="text-white/80 font-source-sans text-sm">Excelencia técnica</span>
+              </div>
+              <div className="flex items-center gap-3">
+                <div className="w-2 h-2 bg-[#D9B26A] rounded-full"></div>
+                <span className="text-white/80 font-source-sans text-sm">Escucha activa</span>
+              </div>
+              <div className="flex items-center gap-3">
+                <div className="w-2 h-2 bg-[#D9B26A] rounded-full"></div>
+                <span className="text-white/80 font-source-sans text-sm">Formación continua</span>
+              </div>
+              <div className="flex items-center gap-3">
+                <div className="w-2 h-2 bg-[#D9B26A] rounded-full"></div>
+                <span className="text-white/80 font-source-sans text-sm">Mediación e innovación</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      )
     }
   ];
 
